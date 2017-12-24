@@ -3,9 +3,9 @@
  */
 
 import React from 'react';
-import Link from "./Link";
+import {Link} from "./Link";
 
-const Footer = () => (
+export const Footer = () => (
     <footer className="footer">
         <ul className="filters">
             <Link filter="all">全部</Link>
@@ -15,5 +15,3 @@ const Footer = () => (
     </footer>
 
 )
-
-export default Footer;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Todo = ({content}) => (
+export const Todo = ({content}) => (
     <li>
         <div className="view">
             <input type="checkbox" className="toggle"/>
@@ -8,5 +8,3 @@ const Todo = ({content}) => (
         </div>
     </li>
 );
-
-export default Todo;

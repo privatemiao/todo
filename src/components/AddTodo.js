@@ -4,11 +4,9 @@
 
 import React from 'react';
 
-const AddTodo = () => (
+export const AddTodo = () => (
     <header className="header">
         <h1>Todos</h1>
         <input className="new-todo" type="text" placeholder="接下来做什么？"/>
     </header>
 );
-
-export default AddTodo;

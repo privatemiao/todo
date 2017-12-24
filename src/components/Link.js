@@ -4,10 +4,8 @@
 
 import React from 'react';
 
-const Link = ({children}) => (
+export const Link = ({children}) => (
     <li>
-        <a href="#">{children}</a>
+        <a>{children}</a>
     </li>
 )
-
-export default Link;
